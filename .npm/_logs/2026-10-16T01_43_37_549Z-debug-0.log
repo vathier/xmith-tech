@@ -1,0 +1,39 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.17.0
+2 info using node@v24.17.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install better-sqlite3@13.0.3
+7 verbose argv "install" "better-sqlite3@13.0.3" "--no-audit" "--no-fund" "--prefer-online" "--no-save" "--ignore-scripts"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-10-16T01_43_37_549Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-10-16T01_43_37_549Z-debug-0.log
+10 warn allow-scripts .npmrc allow-scripts setting is being ignored because --allow-scripts was passed on the command line
+11 silly packumentCache heap:1174405120 maxSize:293601280 maxEntrySize:146800640
+12 silly logfile start cleaning logs, removing 1 files
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest better-sqlite3@13.0.3
+16 silly packumentCache full:https://registry.npmjs.org/better-sqlite3 cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/better-sqlite3 226ms (cache revalidated)
+18 silly packumentCache full:https://registry.npmjs.org/better-sqlite3 set size:393419 disposed:false
+19 silly placeDep ROOT better-sqlite3@13.0.3 OK for:  want: 13.0.3
+20 silly fetch manifest node-addon-api@^8.0.0
+21 silly packumentCache full:https://registry.npmjs.org/node-addon-api cache-miss
+22 http fetch GET 200 https://registry.npmjs.org/node-addon-api 67ms (cache revalidated)
+23 silly packumentCache full:https://registry.npmjs.org/node-addon-api set size:385298 disposed:false
+24 silly placeDep node_modules/better-sqlite3 node-addon-api@8.9.2 OK for: better-sqlite3@13.0.3 want: ^8.0.0
+25 silly reify mark retired [ '/data/data/com.termux/files/usr/lib/node_modules/better-sqlite3' ]
+26 silly reify moves {
+26 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/better-sqlite3': '/data/data/com.termux/files/usr/lib/node_modules/.better-sqlite3-aFYAFWhc'
+26 silly reify }
+27 http fetch GET 200 https://registry.npmjs.org/node-addon-api/-/node-addon-api-8.9.2.tgz 85ms (cache revalidated)
+28 http fetch GET 200 https://registry.npmjs.org/better-sqlite3/-/better-sqlite3-13.0.3.tgz 366ms (cache revalidated)
+29 silly CHANGE node_modules/better-sqlite3
+30 silly CHANGE node_modules/better-sqlite3/node_modules/node-addon-api
+31 verbose cwd /data/data/com.termux/files/home/.9router/runtime
+32 verbose os Linux 6.6.102-android15-8-gb01b41c2647c-ab15574720-4k
+33 verbose node v24.17.0
+34 verbose npm  v11.17.0
+35 verbose exit 0
+36 info ok

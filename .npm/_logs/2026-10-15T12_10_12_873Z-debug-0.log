@@ -1,0 +1,20 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.17.0
+2 info using node@v24.17.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm rebuild 9router
+7 verbose argv "rebuild" "--global" "9router"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-10-15T12_10_12_873Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-10-15T12_10_12_873Z-debug-0.log
+10 silly packumentCache heap:1174405120 maxSize:293601280 maxEntrySize:146800640
+11 silly logfile done cleaning log files
+12 info run 9router@0.5.99 postinstall node_modules/9router node hooks/postinstall.js
+13 info run 9router@0.5.99 postinstall { code: 0, signal: null }
+14 verbose cwd /data/data/com.termux/files/home
+15 verbose os Linux 6.6.102-android15-8-gb01b41c2647c-ab15574720-4k
+16 verbose node v24.17.0
+17 verbose npm  v11.17.0
+18 verbose exit 0
+19 info ok

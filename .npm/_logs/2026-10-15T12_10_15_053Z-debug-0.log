@@ -1,0 +1,31 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.17.0
+2 info using node@v24.17.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install sql.js@1.14.1
+7 verbose argv "install" "sql.js@1.14.1" "--no-audit" "--no-fund" "--prefer-online"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-10-15T12_10_15_053Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-10-15T12_10_15_053Z-debug-0.log
+10 warn allow-scripts .npmrc allow-scripts setting is being ignored because --allow-scripts was passed on the command line
+11 silly packumentCache heap:1174405120 maxSize:293601280 maxEntrySize:146800640
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest sql.js@1.14.1
+15 silly packumentCache full:https://registry.npmjs.org/sql.js cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/sql.js 286ms (cache revalidated)
+17 silly packumentCache full:https://registry.npmjs.org/sql.js set size:132953 disposed:false
+18 silly placeDep ROOT sql.js@1.14.1 OK for:  want: 1.14.1
+19 silly reify mark retired [ '/data/data/com.termux/files/usr/lib/node_modules/sql.js' ]
+20 silly reify moves {
+20 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/sql.js': '/data/data/com.termux/files/usr/lib/node_modules/.sql.js-cKEM11uJ'
+20 silly reify }
+21 http fetch GET 200 https://registry.npmjs.org/sql.js/-/sql.js-1.14.1.tgz 268ms (cache revalidated)
+22 silly CHANGE node_modules/sql.js
+23 verbose cwd /data/data/com.termux/files/home/.9router/runtime
+24 verbose os Linux 6.6.102-android15-8-gb01b41c2647c-ab15574720-4k
+25 verbose node v24.17.0
+26 verbose npm  v11.17.0
+27 verbose exit 0
+28 info ok

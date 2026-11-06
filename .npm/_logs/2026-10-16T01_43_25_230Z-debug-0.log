@@ -1,0 +1,109 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.17.0
+2 info using node@v24.17.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install 9router
+7 verbose argv "install" "--global" "9router"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-10-16T01_43_25_230Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-10-16T01_43_25_230Z-debug-0.log
+10 silly packumentCache heap:1174405120 maxSize:293601280 maxEntrySize:146800640
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest 9router@*
+15 silly packumentCache full:https://registry.npmjs.org/9router cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/9router 338ms (cache updated)
+17 silly packumentCache full:https://registry.npmjs.org/9router set size:undefined disposed:false
+18 silly placeDep ROOT 9router@0.5.104 OK for:  want: *
+19 silly fetch manifest react@19.2.1
+20 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+21 silly fetch manifest confbox@^0.2.4
+22 silly packumentCache full:https://registry.npmjs.org/confbox cache-miss
+23 http fetch GET 200 https://registry.npmjs.org/confbox 207ms (cache revalidated)
+24 silly packumentCache full:https://registry.npmjs.org/confbox set size:49622 disposed:false
+25 silly fetch manifest enquirer@^2.4.1
+26 silly packumentCache full:https://registry.npmjs.org/enquirer cache-miss
+27 http fetch GET 200 https://registry.npmjs.org/enquirer 80ms (cache revalidated)
+28 silly packumentCache full:https://registry.npmjs.org/enquirer set size:203040 disposed:false
+29 silly fetch manifest react-dom@19.2.1
+30 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+31 http fetch GET 200 https://registry.npmjs.org/react 461ms (cache updated)
+32 silly packumentCache full:https://registry.npmjs.org/react set size:undefined disposed:false
+33 silly fetch manifest node-forge@^1.3.3
+34 silly packumentCache full:https://registry.npmjs.org/node-forge cache-miss
+35 http fetch GET 200 https://registry.npmjs.org/node-forge 54ms (cache revalidated)
+36 silly packumentCache full:https://registry.npmjs.org/node-forge set size:394631 disposed:false
+37 silly fetch manifest node-machine-id@^1.1.12
+38 silly packumentCache full:https://registry.npmjs.org/node-machine-id cache-miss
+39 http fetch GET 200 https://registry.npmjs.org/node-machine-id 40ms (cache revalidated)
+40 silly packumentCache full:https://registry.npmjs.org/node-machine-id set size:39325 disposed:false
+41 http fetch GET 200 https://registry.npmjs.org/react-dom 565ms (cache updated)
+42 silly packumentCache full:https://registry.npmjs.org/react-dom set size:undefined disposed:false
+43 silly placeDep node_modules/9router confbox@0.2.4 OK for: 9router@0.5.104 want: ^0.2.4
+44 silly placeDep node_modules/9router enquirer@2.4.1 OK for: 9router@0.5.104 want: ^2.4.1
+45 silly placeDep node_modules/9router node-forge@1.4.0 OK for: 9router@0.5.104 want: ^1.3.3
+46 silly placeDep node_modules/9router node-machine-id@1.1.12 OK for: 9router@0.5.104 want: ^1.1.12
+47 silly placeDep node_modules/9router react@19.2.1 OK for: 9router@0.5.104 want: 19.2.1
+48 silly placeDep node_modules/9router react-dom@19.2.1 OK for: 9router@0.5.104 want: 19.2.1
+49 silly fetch manifest ansi-colors@^4.1.1
+50 silly packumentCache full:https://registry.npmjs.org/ansi-colors cache-miss
+51 silly fetch manifest strip-ansi@^6.0.1
+52 silly packumentCache full:https://registry.npmjs.org/strip-ansi cache-miss
+53 http fetch GET 200 https://registry.npmjs.org/strip-ansi 57ms (cache revalidated)
+54 silly packumentCache full:https://registry.npmjs.org/strip-ansi set size:44998 disposed:false
+55 silly fetch manifest scheduler@^0.27.0
+56 silly packumentCache full:https://registry.npmjs.org/scheduler cache-miss
+57 http fetch GET 200 https://registry.npmjs.org/ansi-colors 63ms (cache revalidated)
+58 silly packumentCache full:https://registry.npmjs.org/ansi-colors set size:110876 disposed:false
+59 http fetch GET 200 https://registry.npmjs.org/scheduler 502ms (cache updated)
+60 silly packumentCache full:https://registry.npmjs.org/scheduler set size:undefined disposed:false
+61 silly placeDep node_modules/9router ansi-colors@4.1.3 OK for: enquirer@2.4.1 want: ^4.1.1
+62 silly placeDep node_modules/9router strip-ansi@6.0.1 OK for: enquirer@2.4.1 want: ^6.0.1
+63 silly fetch manifest ansi-regex@^5.0.1
+64 silly packumentCache full:https://registry.npmjs.org/ansi-regex cache-miss
+65 http fetch GET 200 https://registry.npmjs.org/ansi-regex 87ms (cache revalidated)
+66 silly packumentCache full:https://registry.npmjs.org/ansi-regex set size:50305 disposed:false
+67 silly placeDep node_modules/9router scheduler@0.27.0 OK for: react-dom@19.2.1 want: ^0.27.0
+68 silly placeDep node_modules/9router ansi-regex@5.0.1 OK for: strip-ansi@6.0.1 want: ^5.0.1
+69 silly reify mark retired [
+69 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/9router',
+69 silly reify   '/data/data/com.termux/files/usr/bin/9router'
+69 silly reify ]
+70 silly reify moves {
+70 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/9router': '/data/data/com.termux/files/usr/lib/node_modules/.9router-i0sfQxgM',
+70 silly reify   '/data/data/com.termux/files/usr/bin/9router': '/data/data/com.termux/files/usr/bin/.9router-Yl4He5Q9'
+70 silly reify }
+71 http cache 9router@https://registry.npmjs.org/9router/-/9router-0.5.104.tgz 0ms (cache hit)
+72 http cache strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz 0ms (cache hit)
+73 http cache node-forge@https://registry.npmjs.org/node-forge/-/node-forge-1.4.0.tgz 0ms (cache hit)
+74 http cache node-machine-id@https://registry.npmjs.org/node-machine-id/-/node-machine-id-1.1.12.tgz 0ms (cache hit)
+75 http cache react@https://registry.npmjs.org/react/-/react-19.2.1.tgz 0ms (cache hit)
+76 http cache scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz 0ms (cache hit)
+77 http cache ansi-colors@https://registry.npmjs.org/ansi-colors/-/ansi-colors-4.1.3.tgz 0ms (cache hit)
+78 http cache react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.2.1.tgz 0ms (cache hit)
+79 http cache enquirer@https://registry.npmjs.org/enquirer/-/enquirer-2.4.1.tgz 0ms (cache hit)
+80 http cache ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz 0ms (cache hit)
+81 http cache confbox@https://registry.npmjs.org/confbox/-/confbox-0.2.4.tgz 1ms (cache hit)
+82 silly tarball no local data for 9router@https://registry.npmjs.org/9router/-/9router-0.5.104.tgz. Extracting by manifest.
+83 http fetch GET 200 https://registry.npmjs.org/9router/-/9router-0.5.104.tgz 8112ms (cache miss)
+84 info run 9router@0.5.104 postinstall node_modules/9router node hooks/postinstall.js
+85 info run 9router@0.5.104 postinstall { code: 0, signal: null }
+86 silly CHANGE node_modules/9router
+87 silly CHANGE node_modules/9router/node_modules/strip-ansi
+88 silly CHANGE node_modules/9router/node_modules/node-forge
+89 silly CHANGE node_modules/9router/node_modules/node-machine-id
+90 silly CHANGE node_modules/9router/node_modules/react
+91 silly CHANGE node_modules/9router/node_modules/scheduler
+92 silly CHANGE node_modules/9router/node_modules/ansi-colors
+93 silly CHANGE node_modules/9router/node_modules/react-dom
+94 silly CHANGE node_modules/9router/node_modules/enquirer
+95 silly CHANGE node_modules/9router/node_modules/ansi-regex
+96 silly CHANGE node_modules/9router/node_modules/confbox
+97 verbose cwd /data/data/com.termux/files/home
+98 verbose os Linux 6.6.102-android15-8-gb01b41c2647c-ab15574720-4k
+99 verbose node v24.17.0
+100 verbose npm  v11.17.0
+101 verbose exit 0
+102 info ok

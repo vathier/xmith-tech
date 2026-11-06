@@ -1,0 +1,73 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.17.0
+2 info using node@v24.17.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install systray2@2.1.4
+7 verbose argv "install" "systray2@2.1.4" "--no-audit" "--no-fund" "--prefer-online" "--no-save"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-10-15T12_10_20_195Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-10-15T12_10_20_195Z-debug-0.log
+10 warn allow-scripts .npmrc allow-scripts setting is being ignored because --allow-scripts was passed on the command line
+11 silly packumentCache heap:1174405120 maxSize:293601280 maxEntrySize:146800640
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest systray2@2.1.4
+15 silly packumentCache full:https://registry.npmjs.org/systray2 cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/systray2 255ms (cache revalidated)
+17 silly packumentCache full:https://registry.npmjs.org/systray2 set size:36964 disposed:false
+18 silly placeDep ROOT systray2@2.1.4 OK for:  want: 2.1.4
+19 silly fetch manifest debug@^4.3.2
+20 silly packumentCache full:https://registry.npmjs.org/debug cache-miss
+21 silly fetch manifest fs-extra@^10.0.0
+22 silly packumentCache full:https://registry.npmjs.org/fs-extra cache-miss
+23 http fetch GET 200 https://registry.npmjs.org/fs-extra 76ms (cache revalidated)
+24 silly packumentCache full:https://registry.npmjs.org/fs-extra set size:242028 disposed:false
+25 http fetch GET 200 https://registry.npmjs.org/debug 412ms (cache revalidated)
+26 silly packumentCache full:https://registry.npmjs.org/debug set size:195840 disposed:false
+27 silly placeDep node_modules/systray2 debug@4.4.3 OK for: systray2@2.1.4 want: ^4.3.2
+28 silly placeDep node_modules/systray2 fs-extra@10.1.0 OK for: systray2@2.1.4 want: ^10.0.0
+29 silly fetch manifest ms@^2.1.3
+30 silly packumentCache full:https://registry.npmjs.org/ms cache-miss
+31 silly fetch manifest jsonfile@^6.0.1
+32 silly packumentCache full:https://registry.npmjs.org/jsonfile cache-miss
+33 silly fetch manifest graceful-fs@^4.2.0
+34 silly packumentCache full:https://registry.npmjs.org/graceful-fs cache-miss
+35 silly fetch manifest universalify@^2.0.0
+36 silly packumentCache full:https://registry.npmjs.org/universalify cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/jsonfile 55ms (cache revalidated)
+38 silly packumentCache full:https://registry.npmjs.org/jsonfile set size:53210 disposed:false
+39 http fetch GET 200 https://registry.npmjs.org/universalify 57ms (cache revalidated)
+40 silly packumentCache full:https://registry.npmjs.org/universalify set size:19431 disposed:false
+41 http fetch GET 200 https://registry.npmjs.org/graceful-fs 398ms (cache revalidated)
+42 silly packumentCache full:https://registry.npmjs.org/graceful-fs set size:124285 disposed:false
+43 http fetch GET 200 https://registry.npmjs.org/ms 593ms (cache revalidated)
+44 silly packumentCache full:https://registry.npmjs.org/ms set size:92208 disposed:false
+45 silly placeDep node_modules/systray2 ms@2.1.3 OK for: debug@4.4.3 want: ^2.1.3
+46 silly placeDep node_modules/systray2 graceful-fs@4.2.11 OK for: fs-extra@10.1.0 want: ^4.2.0
+47 silly placeDep node_modules/systray2 jsonfile@6.2.1 OK for: fs-extra@10.1.0 want: ^6.0.1
+48 silly placeDep node_modules/systray2 universalify@2.0.1 OK for: fs-extra@10.1.0 want: ^2.0.0
+49 silly reify mark retired [ '/data/data/com.termux/files/usr/lib/node_modules/systray2' ]
+50 silly reify moves {
+50 silly reify   '/data/data/com.termux/files/usr/lib/node_modules/systray2': '/data/data/com.termux/files/usr/lib/node_modules/.systray2-jH0k0xMV'
+50 silly reify }
+51 http fetch GET 200 https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz 78ms (cache revalidated)
+52 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.1.3.tgz 83ms (cache revalidated)
+53 http fetch GET 200 https://registry.npmjs.org/jsonfile/-/jsonfile-6.2.1.tgz 88ms (cache revalidated)
+54 http fetch GET 200 https://registry.npmjs.org/fs-extra/-/fs-extra-10.1.0.tgz 164ms (cache revalidated)
+55 http fetch GET 200 https://registry.npmjs.org/systray2/-/systray2-2.1.4.tgz 398ms (cache revalidated)
+56 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-4.4.3.tgz 588ms (cache revalidated)
+57 http fetch GET 200 https://registry.npmjs.org/universalify/-/universalify-2.0.1.tgz 699ms (cache revalidated)
+58 silly CHANGE node_modules/systray2
+59 silly CHANGE node_modules/systray2/node_modules/ms
+60 silly CHANGE node_modules/systray2/node_modules/debug
+61 silly CHANGE node_modules/systray2/node_modules/jsonfile
+62 silly CHANGE node_modules/systray2/node_modules/universalify
+63 silly CHANGE node_modules/systray2/node_modules/fs-extra
+64 silly CHANGE node_modules/systray2/node_modules/graceful-fs
+65 verbose cwd /data/data/com.termux/files/home/.9router/runtime
+66 verbose os Linux 6.6.102-android15-8-gb01b41c2647c-ab15574720-4k
+67 verbose node v24.17.0
+68 verbose npm  v11.17.0
+69 verbose exit 0
+70 info ok
